@@ -14,6 +14,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "client\", "{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49398"
+		Debug.AspNetCompiler.PhysicalPath = "client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49398\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49398"
+		Release.AspNetCompiler.PhysicalPath = "client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49398\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49398"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +80,18 @@ Global
 		{C069B6D2-F21C-4556-845B-0DFDA38E1E11}.Release|x64.Build.0 = Release|Any CPU
 		{C069B6D2-F21C-4556-845B-0DFDA38E1E11}.Release|x86.ActiveCfg = Release|Any CPU
 		{C069B6D2-F21C-4556-845B-0DFDA38E1E11}.Release|x86.Build.0 = Release|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|x64.Build.0 = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Debug|x86.Build.0 = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|x64.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|x64.Build.0 = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|x86.ActiveCfg = Debug|Any CPU
+		{D5DBA53C-FEB3-42F3-A872-DD7C07B5CCEA}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
