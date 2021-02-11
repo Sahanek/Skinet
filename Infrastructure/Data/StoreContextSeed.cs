@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Entities.OrderAggregate;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -51,8 +52,20 @@ namespace Infrastructure.Data
                     }
                     await context.SaveChangesAsync();
                 }
+
+                if (!context.DeliveryMethods.Any())
+                {
+                    var dmData = File.ReadAllText("../Infrastructure/Data/SeedData/delivery.json");
+
+                    var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(dmData);
+                    foreach (var item in methods)
+                    {
+                        context.DeliveryMethods.Add(item);
+                    }
+                    await context.SaveChangesAsync();
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 var logger = loggerFactory.CreateLogger<StoreContextSeed>();
                 logger.LogError(ex.Message);

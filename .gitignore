@@ -7,3 +7,4 @@ appsettings.json
 applicationhost.config
 *.csproj.user
 .vscode
+*.rdb
